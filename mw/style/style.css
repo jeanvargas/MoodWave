@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bg
+{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.menu_button
+{
+	opacity: .8;
+}
+
+.canvas
+{
+	border:1px solid #ffffff;
+	margin-left: auto;
+    margin-right: auto
+}

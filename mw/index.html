@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style/style.css" rel="stylesheet" type="text/css"/>
+ <link rel="stylesheet" href="style/bootstrap.min.css">
+  <script src="js/jquery-1.12.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<title>Moodwave</title>
+</head>
+<body>
+<img id="background_img" class="bg" src="style/Graphics/background.png">
+<center>
+<img src="style/Graphics/welcome.png">
+<!--<div class="color_menu">
+	<img class="menu_button" src="style/Graphics/buttons/color_btn.png" width="300" onMouseOver="over(this, 'color_btn')" onMouseOut="out(this, 'color_btn')" data-toggle="modal" data-target="#colorModal">
+</div>
+<br />-->
+<!--<a href="results.html">
+    <div class="results">
+        <img class="menu_button" src="style/Graphics/buttons/results_btn.png" width="300" onClick="" onMouseOver="over(this, 'results_btn')" onMouseOut="out(this, 'results_btn')">
+    </div>
+</a>
+<br />-->
+<!--<div class="menu_button">
+	<img class="ag_btn" src="style/Graphics/buttons/ag_btn.png" width="300" onClick="" onMouseOver="over(this, 'ag_btn')" onMouseOut="out(this, 'ag_btn')">
+</div>-->
+<br /><br />
+<br />
+
+<a href="session.html">
+    <div class="menu_button">
+        <img class="begin_btn" src="style/Graphics/buttons/begin_btn.png" width="300" onClick="" onMouseOver="over(this, 'begin_btn')" onMouseOut="out(this, 'begin_btn')">
+    </div>
+</a>
+
+<div class="modal fade" id="colorModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pick a Color Theme for Your Session</h4>
+            </div>
+            <div class="modal-body">
+            <div class="radio">
+            <label><input type="radio" name="optradio">Calm</label>
+            </div>
+            <div class="radio">
+            <label><input type="radio" name="optradio">Happy</label>
+            </div>
+            <div class="radio">
+            <label><input type="radio" name="optradio">Alert</label>
+		</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="modal fade" id="soundModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pick a Color Theme for Your Session</h4>
+            </div>
+            <div class="modal-body">
+            <div class="radio">
+            <label><input type="radio" name="optradio">Sound 1</label>
+            </div>
+            <div class="radio">
+            <label><input type="radio" name="optradio">Sound 2</label>
+            </div>
+            <div class="radio">
+            <label><input type="radio" name="optradio">Sound 3</label>
+		</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</center>
+</body>
+<script type="text/javascript">
+
+function over(s, t) {
+	s.src="style/Graphics/buttons/"+t+"_mo.png";
+}
+function out(s, t) {
+	s.src="style/Graphics/buttons/"+t+".png";
+}
+</script>
+</html>
